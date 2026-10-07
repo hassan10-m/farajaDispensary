@@ -1,0 +1,107 @@
+.home-page {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1a1a1a;
+}
+
+/* Yellow banner */
+.home-banner {
+  background-color: #f6c90e;
+  text-align: center;
+  padding: 28px 16px 20px;
+}
+
+.home-banner h1 {
+  margin: 0;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  font-weight: 800;
+}
+
+.home-banner p {
+  margin: 6px 0 0;
+  font-size: 1rem;
+}
+
+/* Dark nav bar */
+.home-nav {
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 14px 16px;
+}
+
+.home-nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.home-nav a:hover {
+  color: #f6c90e;
+}
+
+/* Hero */
+.home-hero {
+  background-color: #fdeba3;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.home-hero h2 {
+  font-size: 2.2rem;
+  margin: 0 0 20px;
+  font-weight: 800;
+}
+
+.home-hero p {
+  max-width: 640px;
+  margin: 0 auto 28px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.home-cta {
+  display: inline-block;
+  background-color: #f6c90e;
+  color: #1a1a1a;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 2px;
+}
+
+.home-cta:hover {
+  background-color: #e0b800;
+}
+
+/* About */
+.home-about {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.home-about h3 {
+  font-size: 1.6rem;
+  margin: 0 0 16px;
+  font-weight: 800;
+}
+
+.home-about p {
+  max-width: 640px;
+  margin: 0 auto;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .home-nav {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .home-hero h2 {
+    font-size: 1.6rem;
+  }
+}
